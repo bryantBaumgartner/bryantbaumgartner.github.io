@@ -1,0 +1,72 @@
+        .background {
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-origin: padding-box;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            background-size: cover;
+            box-sizing: border-box;
+            position: fixed;
+            display: block;
+            left: -1px;
+            top: -1px;
+            user-select: none;
+            width: 101vw;
+            height: 101vh;
+            z-index: -10
+        }
+
+        .background-image {
+	    background-image: url("/images/backdrop.png");
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-origin: padding-box;
+            background-position-x: 50%;
+            background-position-y: 50%;
+            background-size: cover;
+            box-sizing: border-box;
+            position: fixed;
+            display: block;
+            left: -10px;
+            top: -10px;
+            user-select: none;
+            width: 103vw;
+            height: 103vh;
+            z-index: -10
+  	    filter: blur(5px);
+  	    -webkit-filter: blur(5px);
+        }
+
+        @media (max-width: 576px) {
+            .display-3 {
+                margin-top:-60px;
+                font-size:48px;
+            }
+        }
+
+        /* Credit to https://css-tricks.com/snippets/css/typewriter-effect */
+        .blink-cursor {
+            border-right: .05em solid;
+            animation: caret 1.5s steps(1) infinite;
+        }
+
+        @keyframes caret {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        /*Credit to https://www.w3schools.com/w3css/4/w3.css*/
+        .opacity {
+            animation: opac 0.8s normal
+        }
+
+        @keyframes opac {
+            from {
+                opacity: 0
+            }
+
+            to {
+                opacity: 1
+            }
+        }
