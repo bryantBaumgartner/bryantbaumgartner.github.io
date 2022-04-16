@@ -1,72 +1,71 @@
-        .background {
-            background-attachment: scroll;
-            background-clip: border-box;
-            background-origin: padding-box;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            background-size: cover;
-            box-sizing: border-box;
-            position: fixed;
-            display: block;
-            left: -1px;
-            top: -1px;
-            user-select: none;
-            width: 101vw;
-            height: 101vh;
-            z-index: -10
-        }
+.background-image {
+    background-image: url("/images/backdrop.png");
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    position: fixed;
+    display: block;
+    left: -10vw;
+    top: -5vh;
+    width: 120vw;
+    height: 120vh;
+    z-index: -10;
+    user-select: none;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
 
-        .background-image {
-	    background-image: url("/images/backdrop.png");
-            background-attachment: scroll;
-            background-clip: border-box;
-            background-origin: padding-box;
-            background-position-x: 50%;
-            background-position-y: 50%;
-            background-size: cover;
-            box-sizing: border-box;
-            position: fixed;
-            display: block;
-            left: -10px;
-            top: -10px;
-            user-select: none;
-            width: 103vw;
-            height: 103vh;
-            z-index: -10
-  	    filter: blur(5px);
-  	    -webkit-filter: blur(5px);
-        }
+.no-text-highlighting {
+    text-decoration:none !important;
+}
 
-        @media (max-width: 576px) {
-            .display-3 {
-                margin-top:-60px;
-                font-size:48px;
-            }
-        }
+.twitter-color {
+    background-color: rgba(15,10,25,0.9)
+    /*background-color: rgba(22,32,42,1);*/
+}
 
-        /* Credit to https://css-tricks.com/snippets/css/typewriter-effect */
-        .blink-cursor {
-            border-right: .05em solid;
-            animation: caret 1.5s steps(1) infinite;
-        }
+.twitter-color-solid {
+    background-color: rgba(15,10,25,0.9) !important
+    /*background-color: rgba(22,32,42,1);*/
+}
 
-        @keyframes caret {
-            50% {
-                border-color: transparent;
-            }
-        }
+.twitter-post {
+    border: solid rgb(70,70,70) 1px;
+    border-top: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 10px;
+    transition: background-color 0.3s linear;
+    color: white;
+    text-decoration: none;
+}
 
-        /*Credit to https://www.w3schools.com/w3css/4/w3.css*/
-        .opacity {
-            animation: opac 0.8s normal
-        }
+.twitter-post-hoverable:hover {
+    cursor: pointer;
+    background-color: #2C3640;
+    user-select: none;
+}
 
-        @keyframes opac {
-            from {
-                opacity: 0
-            }
+.twitter-side-panel {
+    /*background-color: #192734;*/
+    border: solid rgb(70,70,70) 1px;
+    border-top: none;
+    border-radius: 20px;   
+}
 
-            to {
-                opacity: 1
-            }
-        }
+.twitter-side-element {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+    .display-3 {
+        margin-top:-60px;
+        font-size:48px;
+    }
+}

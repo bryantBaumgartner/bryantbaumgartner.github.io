@@ -1,0 +1,8 @@
+                <div class="jumbotron twitter-side-panel twitter-color-solid" style="padding:20px; padding-left:0; padding-right:0px; padding-bottom:0px;">
+                    <p class="display-4 twitter-side-element">Socials</p>
+                    <div class="twitter-side-element">
+                        <a href="https://twitter.com/Pocket_Squid?ref_src=twsrc%5Etfw" class="twitter-follow-button twitter-side-element" data-show-count="true">Follow @Pocket_Squid</a>
+                        <a class="twitter-timeline" data-width="500" data-height="400" data-theme="dark" href="https://twitter.com/Pocket_Squid?ref_src=twsrc%5Etfw" data-chrome="transparent noscrollbar nofooter noborders">Tweets by Pocket_Squid</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>

@@ -1,0 +1,26 @@
+/* Credit to https://css-tricks.com/snippets/css/typewriter-effect */
+.blink-cursor {
+    border-right: .05em solid;
+    animation: caret 1.5s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*Credit to https://www.w3schools.com/w3css/4/w3.css*/
+.opacity {
+    animation: opac 0.8s normal
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}

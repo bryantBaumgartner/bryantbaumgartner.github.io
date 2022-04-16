@@ -1,0 +1,8 @@
+.hidden-set-list {
+    display:none;
+}
+
+.underlined-interactable {
+    background-color: #2C3640 !important;
+    color: white !important;
+}
