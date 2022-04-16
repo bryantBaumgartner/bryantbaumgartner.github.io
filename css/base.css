@@ -24,7 +24,7 @@
 }
 
 .twitter-color {
-    background-color: rgba(15,15,30,0.9)
+    background-color: rgba(11,7,18,0.9)
     /*background-color: rgba(22,32,42,1);*/
 }
 
@@ -47,7 +47,7 @@
 
 .twitter-post-hoverable:hover {
     cursor: pointer;
-    background-color: #2C3640;
+    background-color: #232638;
     user-select: none;
 }
 
