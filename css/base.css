@@ -17,6 +17,7 @@
     user-select: none;
     filter: blur(5px);
     -webkit-filter: blur(5px);
+    overflow: hidden;
 }
 
 .no-text-highlighting {
@@ -24,12 +25,12 @@
 }
 
 .twitter-color {
-    background-color: rgba(11,7,18,0.9)
+    background-color: rgba(40,40,40,1);
     /*background-color: rgba(22,32,42,1);*/
 }
 
-.twitter-color-solid {
-    background-color: rgba(15,10,25,0.9) !important
+.twitter-color-bright {
+    background-color: rgb(52, 52, 52);
     /*background-color: rgba(22,32,42,1);*/
 }
 
@@ -47,7 +48,7 @@
 
 .twitter-post-hoverable:hover {
     cursor: pointer;
-    background-color: #232638;
+    background-color: rgba(80,80,80,1);
     user-select: none;
 }
 
@@ -55,12 +56,21 @@
     /*background-color: #192734;*/
     border: solid rgb(70,70,70) 1px;
     border-top: none;
-    border-radius: 20px;   
+    border-radius: 0px;   
 }
 
 .twitter-side-element {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.inset-shadow {
+    border-bottom: 1px solid #292929;
+    box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.1) inset;
+}
+
+.outside-shadow {
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.5);
 }
 
 @media (max-width: 576px) {

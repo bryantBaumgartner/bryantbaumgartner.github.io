@@ -3,6 +3,6 @@
 }
 
 .underlined-interactable {
-    background-color: #232638 !important;
+    background-color: rgba(80,80,80,1) !important;
     color: white !important;
 }

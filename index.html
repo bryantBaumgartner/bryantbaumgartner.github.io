@@ -4,34 +4,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bryant Baumgartner - Home</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
- 
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/typewriter.css">
+    <link rel="stylesheet" href="/css/animations.css">
     <script src="/js/includeHTML.js"></script>
-    
+
 </head>
 <body>
     <img class="background-image" style="">
     <div w3-include-html="/header.html"></div>
 
-    <div name="topic" class="container mt-4" style="color:white; user-select: none; top:50%">
-        <div style="margin:0; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);">
-            <p id="title" class="display-3" style="cursor: default; text-transform: uppercase; text-shadow: 5px 5px 5px black; align-self:center;">PROGRAMMING</p>
-            <p id="subtitle" class="text-center" style="cursor: default; text-transform: uppercase; font-size: 24px; text-shadow: 5px 5px 5px black; opacity:0;">It's What I Do</p>
+    <main role="main" class="container-fluid" style="margin:0px; padding:0px;">
+        <!--Heading-->
+        <div class="row" style="margin:0px; height:100vh">
+            <div class="col-sm-12 my-auto" style="text-align:center; color:white;">
+                <div>
+                    <p id="title" class="display-3" style="cursor: default; text-transform: uppercase; text-shadow: 5px 5px 5px black; align-self:center;">PROGRAMMING</p>
+                    <p id="subtitle" class="text-center" style="cursor: default; text-transform: uppercase; font-size: 24px; text-shadow: 5px 5px 5px black; opacity:0;">It's What I Do</p>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row" style="margin:0px; margin-top:-5vh; height:5vh; color: white;">
+            <div class="mx-auto">
+                <p style="font-size:60px; margin-top:-3px;">&#8691;</p>
+            </div>
+        </div>
 
-    <div w3-include-html="/footer.html"></div>
+        <!--Skills-->
+        <div class="my-auto twitter-color-bright inset-shadow" style="margin:0px; width:100%; padding-top:5vh; padding-bottom:5vh; color:white;">
+            <div class="row mx-auto slide-in-left mt-5" style="width:80%; margin-bottom: 5vh !important;">
+                <div class="col-sm-12 my-auto" style="text-align:center;">
+                    <div class="mx-auto">
+                        <h1 class="">BRYANT BAUMGARTNER</h1>
+                        <p class="mx-auto" style="max-width:400px; color: darkgray">Your friendly neighborhood computer guy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto slide-in-left" style="width:60%;">
+                <div class="col-sm-4 my-auto" style="text-align:center; margin-bottom: 5vh !important;">
+                    <div class="mx-auto">
+                        <div class="row">
+                            <img src="/images/icons/command.png" class="mx-auto" style="height:60px; width:60px; margin-bottom: 10px;" />
+                        </div>
+                        <h3 class="navbar-brand">APP DESIGN</h3>
+                        <p class="mx-auto" style="max-width:400px; color: darkgray">Delivering high quality software using expert development techniques.</p>
+                    </div>
+                </div>
+                <br />
+                <div class="col-sm-4 my-auto" style="text-align:center; margin-bottom: 5vh !important;">
+                    <div class="mx-auto">
+                        <div class="row">
+                            <img src="/images/icons/webpage.png" class="mx-auto" style="height:60px; width:60px; margin-bottom: 10px;" />
+                        </div>
+                        <h3 class="navbar-brand">WEB DESIGN</h3>
+                        <p class="mx-auto" style="max-width:400px; color: darkgray">Creating modern, dynamic and visually appealing websites and web apps.</p>
+                    </div>
+                </div>
+                <br />
+                <div class="col-sm-4 my-auto" style="text-align:center; margin-bottom: 5vh !important;">
+                    <div class="mx-auto">
+                        <div class="row">
+                            <img src="/images/icons/controller.png" class="mx-auto" style="height:60px; width:60px; margin-bottom: 10px;" />
+                        </div>
+                        <h3 class="navbar-brand">GAME DESIGN</h3>
+                        <p class="mx-auto" style="max-width:400px; color: darkgray">Creating gameplay elements and tools for modern game engines.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mx-auto" style="width:80%;">
+                <div class="col-sm-12 my-auto" style="text-align:center;">
+                    <div class="mx-auto">
+                        <a href="/experience" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">See More Skills &#187;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Game Dev-->
+        <div class="my-auto twitter-color-bright inset-shadow" style="margin:0px; width:100%; padding-top:5vh; padding-bottom:5vh; color:white;">
+            <div class="row mx-auto" style="width:70%;">
+                <div class="col-sm-6 slide-in-left" style="text-align:center;">
+                    <div class="mx-auto">
+                        <img src="/images/gamebanner.png" class="mx-auto outside-shadow" style="max-height:300px; max-width:100%; margin-bottom: 10px;" />
+                    </div>
+                </div>
+                <div class="col-sm-5 my-auto slide-in-right" style="text-align:left; margin-bottom: 5vh !important; margin-top: 5vh !important;">
+                    <div class="mx-auto">
+                        <h3 class="navbar-brand" style="">Game Development</h3>
+                        <p class="mr-3" style="color: darkgray">
+                            My time pulling all-nighters developing games has unfortunately subsided, but I still like to slowly work on games in my free time.
+                            Any projects that reach a reasonable state can be found here on my itch page.
+                        </p>
+                        <div class="row justify-content-start mt-4" style="margin-left:-5px;">
+                            <a href="https://bryant-baumgartner.itch.io/" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">Itch.io &#187;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--RoR2 Modding-->
+        <div class="my-auto twitter-color-bright inset-shadow" style="margin:0px; width:100%; padding-top:5vh; padding-bottom:5vh; color:white;">
+            <div class="row mx-auto" style="width:70%;">
+                <div class="col-sm-5 my-auto slide-in-left" style="text-align:right; margin-bottom: 5vh !important; margin-top: 5vh !important;">
+                    <div class="mx-auto">
+                        <h3 class="navbar-brand" style="">Risk of Rain 2 Modding</h3>
+                        <p class="mr-3" style="color: darkgray">
+                            I've been making steady updates over the last few months on my Risk of Rain 2 mod: ChaosMode!
+                            You can check out either the current release package on the ThunderStore, or the project files on my personal GitHub account.
+                        </p>
+                        <div class="row justify-content-end mt-4" style="margin-right: 10px;">
+                            <a href="https://thunderstore.io/package/Pocket/ChaosMode/" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">ThunderStore &#187;</a>
+                            <a href="https://github.com/bryantBaumgartner/chaosMode" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">GitHub &#187;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 slide-in-right" style="text-align:center;">
+                    <div class="mx-auto">
+                        <img src="/images/ror2gameplay.jpg" class="mx-auto outside-shadow" style="max-height:300px; max-width:100%; margin-bottom: 10px;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Spotify-->
+        <div class="my-auto twitter-color-bright inset-shadow" style="margin:0px; width:100%; padding-top:5vh; padding-bottom:5vh; color:white;">
+            <div class="row mx-auto" style="width:70%;">
+                <div class="col-sm-6 slide-in-left" style="text-align:center;">
+                    <div class="mx-auto">
+                        <img src="/images/lmms.png" class="mx-auto outside-shadow" style="max-height:300px; max-width:100%; margin-bottom: 10px;" />
+                    </div>
+                </div>
+                <div class="col-sm-5 my-auto slide-in-right" style="text-align:left; margin-bottom: 5vh !important; margin-top: 5vh !important;">
+                    <div class="mx-auto">
+                        <h3 class="navbar-brand" style="">Music Making</h3>
+                        <p class="mr-3" style="color: darkgray">
+                            I've got a few tracks on Spotify now as well as on Soundcloud. Take a look at either if you're interested in my sounds.
+                        </p>
+                        <div class="row justify-content-start mt-4" style="margin-left:-5px;">
+                            <a href="https://open.spotify.com/artist/1yeZaJVFWk2bqSILrBHp2i" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">Spotify &#187;</a>
+                            <a href="https://soundcloud.com/bryant-baumgartner" class="btn btn-outline-light" style="margin-left:5px; margin-right:5px;">Soundcloud &#187;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div w3-include-html="/footerdynamic.html" style="max-width:100vw;"></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="/js/typewriter.js"></script>
     <script>
-	includeHTML();
-	setTimeout(typeWriter, 1000)
+        includeHTML();
+        setTimeout(typeWriter, 1000)
     </script>
 </body>
 </html>

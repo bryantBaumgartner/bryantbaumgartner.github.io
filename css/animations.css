@@ -1,0 +1,31 @@
+.slide-in-left {
+    animation: slideInLeft ease-out 1s;
+}
+
+.slide-in-right {
+    animation: slideInRight ease-out 1s;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-5%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(5%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
