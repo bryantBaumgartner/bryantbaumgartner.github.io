@@ -1,15 +1,16 @@
 .background-image {
     background-image: url("/images/backdrop.png");
+    /*background-image: url("/images/seattle.jpg");*/
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 50%;
+    background-position-x: 70%;
     background-position-y: 50%;
     background-size: cover;
     box-sizing: border-box;
     position: fixed;
     display: block;
-    left: -10vw;
+    left: -5vw;
     top: -5vh;
     width: 120vw;
     height: 120vh;
@@ -20,13 +21,18 @@
     overflow: hidden;
 }
 
+.pro-text {
+    font-family: Roboto,sans-serif;
+    /*text-shadow: 5px 5px 5px black;*/
+}
+
 .no-text-highlighting {
     text-decoration:none !important;
 }
 
 .twitter-color {
     background-color: rgba(40,40,40,1);
-    /*background-color: rgba(22,32,42,1);*/
+    /*background-color: white;*/
 }
 
 .twitter-color-bright {

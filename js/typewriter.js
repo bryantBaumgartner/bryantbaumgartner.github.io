@@ -1,7 +1,7 @@
 var i = 0;
 var txt = document.getElementById("title").innerHTML;
 var subtxt = document.getElementById("subtitle").innerHTML;
-var speed = 20;
+var speed = 50;
 document.getElementById("title").innerHTML = "";
 document.getElementById("subtitle").innerHTML = "_";
 
