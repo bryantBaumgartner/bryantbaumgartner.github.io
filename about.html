@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Bryant Baumgartner</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/darkMode.css">
+    <link rel="stylesheet" href="/css/togglecontent.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/js/includeHTML.js"></script>
+    <script src="/js/togglecontent.js"></script>
+
+</head>
+<body>
+    <img class="background-image" style="background-color:#15202B; opacity:1">
+    <div w3-include-html="/header.html"></div>
+
+    <main role="main" class="container-fluid" style="max-width:1300px;">
+        <div class="row mb-5" style="color:white; margin-top:80px;">
+            <div class="col-md-2 mb-4 hide-twitter-element d-none d-md-block">
+                <ul class="nav nav-pills twitter-nav-links flex-column sticky-top" style="top:90px;">
+                    <a href="/index"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/home.svg" /> Home</li></a>
+                    <a href="/projects"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/github.svg" /> Projects</li></a>
+                    <a href="/experience"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/briefcase.svg" /> Experience</li></a>
+                    <a href="/links"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/link-2.svg" /> Links</li></a>
+                    <a href="/gallery"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/camera.svg" /> Gallery</li></a>
+                    <a href="#"><li class="tweet-header-link tweet-active-link"><img class="icon" src="/Images/Icons/info.svg" /> About</li></a>
+                    <a href="/contact"><li class="tweet-header-link"><img class="icon" src="/Images/Icons/mail.svg" /> Contact</li></a>
+                </ul>
+            </div>
+
+            <!--Middle Tab-->
+            <div class="col-md-6 mb-4">
+                <div class="twitter-post" style="padding:0px;">
+                    <img src="/Images/treeme.jpg" style="width:100%; max-width:100%; height:200px; object-fit:cover; z-index:-1; margin-bottom:-50px;" />
+                    <div class="row twitter-side-element">
+                        <img class="float-left" src="/Images/photo.png" style="width:100px; height:100px; border-radius:50px; object-fit:cover;" />
+                    </div>
+                    <div class="row twitter-side-element">
+                        <p class="display-4">About</p>
+                    </div>
+                    <div class="row twitter-side-element">
+                        <p style="line-height:17px; margin-bottom:5px;"><b>Bryant Baumgartner</b><span style="color: #7C8E9B"> #About - 5/27/22</span></p><br />
+                        <p style="line-height:17px; font-size:15px;">Here's a little bit about me; what I do, where I came from and more!</p>
+                    </div>
+                </div>
+
+                <!--Middle Tab Items-->
+                <!--List 1-->
+                <div id="setList1" class="set-list">
+                    <div class="twitter-post twitter-post-hoverable" style="padding-bottom:0px;">
+                        <div class="row">
+                            <div class="col-md-2 mb-4 hide-twitter-element" style="max-width:65px;">
+                                <img class="float-left" src="/Images/photo.png" style="width:45px; height:45px; border-radius:50px; object-fit:cover;" />
+                            </div>
+                            <div class="col-md-10 mb-4" style="margin-right:10px;">
+                                <p style="line-height:17px; margin-bottom:5px;"><b>About Me</b><span style="color: #7C8E9B"> - 5/27/22</span></p>
+                                <p style="line-height:17px; font-size:15px; margin-bottom:-5px;">Howdy! The name's Bryant and boy do I not know where to start.<p>
+                                <p style="line-height:17px; font-size:15px; margin-bottom:-5px;">
+                                    I'm an IT graduate from Saint Martin's University in Washington. I'm pretty much always on my computer working on some kind of software project.
+                                    Ever since I've been little I've had a knack for figuring out how things worked; usually computers or gamges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--What's New and Social Media-->
+            <div class="col-md-4 mb-4">
+                <div w3-include-html="/news.html" style="max-width:100vw;"></div>
+                <div class="jumbotron twitter-side-panel sticky-top" style="top:90px; padding:20px; padding-left:0; padding-right:0px; padding-bottom:0px;">
+                    <p class="display-4 twitter-side-element">Socials</p>
+                    <div class="twitter-side-element">
+                        <a href="https://twitter.com/Pocket_Squid?ref_src=twsrc%5Etfw" class="twitter-follow-button twitter-side-element" data-show-count="true">Follow @Pocket_Squid</a>
+                        <a class="twitter-timeline" data-width="500" data-height="400" data-theme="dark" href="https://twitter.com/Pocket_Squid?ref_src=twsrc%5Etfw" data-chrome="transparent noscrollbar nofooter noborders">Tweets by Pocket_Squid</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <p class="text-center" style="color:white;">Designed by Bryant Baumgartner 2022  -  Inspired by Twitter.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        includeHTML();
+
+        function loadPage(location) {
+            window.location.href = location;
+        }
+    </script>
+</body>
+</html>
