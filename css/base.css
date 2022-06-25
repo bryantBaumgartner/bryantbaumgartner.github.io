@@ -62,7 +62,7 @@
     /*background-color: #192734;*/
     border: solid rgb(70,70,70) 1px;
     border-top: none;
-    border-radius: 0px;   
+    border-radius: 0px !important;   
 }
 
 .twitter-side-element {

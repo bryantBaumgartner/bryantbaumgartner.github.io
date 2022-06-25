@@ -46,7 +46,8 @@
 
 .twitter-side-panel {
     background-color: #192734;
-    border-radius: 20px;
+    border-radius: 0px !important;
+    /*border-radius: 20px;*/
 }
 
 .twitter-side-element {
