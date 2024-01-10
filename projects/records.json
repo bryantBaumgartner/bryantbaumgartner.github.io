@@ -1,0 +1,219 @@
+{
+  "name": "records.json",
+
+  "players": [
+    {
+      "name": "Noah",
+      "desc": "Noah",
+      "tp": 25,
+      "basestats": {
+        "hp": 262,
+        "attack": 40,
+        "healing": 100,
+        "dexterity": 40,
+        "agility": 20,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    },
+    {
+      "name": "Mio",
+      "desc": "Noah",
+      "tp": 25,
+      "basestats": {
+        "hp": 100,
+        "attack": 100,
+        "healing": 100,
+        "dexterity": 100,
+        "agility": 100,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    },
+    {
+      "name": "Eunie",
+      "desc": "Noah",
+      "tp": 25,
+      "basestats": {
+        "hp": 238,
+        "attack": 100,
+        "healing": 100,
+        "dexterity": 100,
+        "agility": 100,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    },
+    {
+      "name": "Taion",
+      "desc": "Noah",
+      "tp": 35,
+      "basestats": {
+        "hp": 100,
+        "attack": 100,
+        "healing": 100,
+        "dexterity": 100,
+        "agility": 100,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    },
+    {
+      "name": "Lanz",
+      "desc": "Noah",
+      "tp": 25,
+      "basestats": {
+        "hp": 100,
+        "attack": 100,
+        "healing": 100,
+        "dexterity": 100,
+        "agility": 100,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    },
+    {
+      "name": "Sena",
+      "desc": "Noah",
+      "tp": 25,
+      "basestats": {
+        "hp": 100,
+        "attack": 100,
+        "healing": 100,
+        "dexterity": 100,
+        "agility": 100,
+        "critical": 100,
+        "block": 100,
+        "physical": 100,
+        "ether": 100
+      }
+    }
+  ],
+
+  "gems": [
+    {
+      "name": "Blue Gem 1 X",
+      "desc": "Boost Agility by 35.",
+      "amount": 35
+    },
+    {
+      "name": "Red Gem 1 X",
+      "desc": "Boost Attack by 75.",
+      "amount": 75
+    }
+  ],
+
+  "classes": [
+    {
+      "name": "Swordfighter",
+      "desc": "Swordfighting Class",
+      "statrate": {
+        "hp": 0.1922,
+        "attack": 0.1651,
+        "dexterity": 0.0909,
+        "agility": 0.0959
+      },
+      "skills": [
+        {
+          "skill1": "",
+          "skill2": "",
+          "skill3": ""
+        }
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Seraph Skill 1",
+      "desc": "Boost damage to Toppled/Launched enemies by 150%.",
+      "effect": 0,
+      "amount": 2.5
+    },
+    {
+      "name": "Monica's Skill 1",
+      "desc": "Boost TP by 7 at start of Chain Attack.",
+      "effect": 3,
+      "amount": 7
+    },
+    {
+      "name": "Royal Summoner Skill 1",
+      "desc": "Boost party Damage by 75%. Reduces enemy Block Rate by 25%.",
+      "effect": 4,
+      "amount": 1.5
+    }
+  ],
+
+  "arts": [
+    {
+      "name": "Seraph Art 1",
+      "desc": "High Damage to Launched enemies.",
+      "type": 0,
+      "damage": 1.5,
+      "cooldown": 0,
+      "effect": 0,
+      "role": 0
+    },
+    {
+      "name": "Seraph Art 2",
+      "desc": "High Damage to Launched enemies.",
+      "type": 0,
+      "damage": 1.5,
+      "cooldown": 0,
+      "effect": 0,
+      "role": 0
+    },
+    {
+      "name": "Seraph Art 3",
+      "desc": "High Damage to Launched enemies.",
+      "type": 0,
+      "damage": 1.5,
+      "cooldown": 0,
+      "effect": 0,
+      "role": 0
+    }
+  ],
+
+  "talent": [
+    {
+      "name": "Seraph Talent 1",
+      "desc": "Big damage.",
+      "type": 0,
+      "damage": 10,
+      "cooldown": 0,
+      "effect": 0,
+      "role": 0
+    }
+  ],
+
+  "accessories": [
+    {
+      "name": "Fiber Wraps",
+      "desc": "Boost damage to Launched enemies by 110%.",
+      "effect": 0,
+      "amount": 2.1
+    },
+    {
+      "name": "Break Brooch",
+      "desc": "Reduces enemy Break Resist by 25%.",
+      "effect": 1,
+      "amount": 0.75
+    },
+    {
+      "name": "Titanium Temple Guard",
+      "desc": "Boost maximum HP by 32%.",
+      "effect": 2,
+      "amount": 1.32
+    }
+  ]
+}
